@@ -1,0 +1,26 @@
+.create-container {
+    display: flex;
+    flex-direction: column;
+    width: 10010;
+}
+.add-expense-heading {
+    text-align: center;
+    margin: .1rem 0 1rem 0;
+}
+.create-form-item {
+    margin: 0.1rem;
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+}
+button.add-expense {
+    width: 100%;
+    border-radius: 6px;
+    padding: .5rem;
+    margin: 0.3rem 0 0 0;
+    background-color: rgba(232, 236, 178, 0.622);
+
+    
+}button.add-expense:hover{
+    background-color: rgba(205, 213, 101, 0.431);  
+    }

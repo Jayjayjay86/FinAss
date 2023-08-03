@@ -1,0 +1,14 @@
+.menu-container {
+    font-size: 30px;
+    margin-top: 2.75rem;
+
+}
+.menu-link {
+    color: rgb(32, 32, 110);
+    
+
+}
+.menu-link:hover {
+    text-decoration: none;
+    color:rgb(41, 41, 133);
+}

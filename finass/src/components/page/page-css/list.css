@@ -1,0 +1,98 @@
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.expense-item-card {
+    border: 2px solid rgb(178, 178, 178);
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 152, 0.803);
+    border: .5px solid rgb(35, 35, 102);
+}
+.expense-card-header {
+    
+    margin:0.3rem 0 0.1rem 0.4rem;
+}
+.expense-card-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border: 1px solid rgba(42, 40, 26, 0.845);
+    
+    border-radius:10px;
+    background-color: rgba(242, 235, 158, 0.845);
+}
+.description-section {
+    text-align: center;
+    display: grid;
+    margin-top: 3.5rem;
+    font-size: 20px;
+    padding: .2rem;
+    height: calc(100% - 10vh);
+}
+.date-section   {
+    display: flex;
+    flex-direction: column;
+    margin-top:0.3rem;
+    margin-left: .7rem;
+}
+.purpose-section {
+    display: flex;
+    flex-direction: column;
+    margin-top:0.3rem;
+    margin-left: .7rem;
+}
+.amount-section {
+    display: flex;
+    flex-direction: column;
+    margin-top:0.3rem;
+    margin-left: .7rem;
+}
+.show-details-button {
+    border-radius: 6px;
+    justify-self: center;
+    width: 55%;
+    height: 45px;
+    font-size: 16px;
+}
+.buttons-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    margin-top:0.5rem;
+    margin-left: .2rem;
+
+}
+button.show-details-button {
+    margin: 0.11rem;
+    border-radius: 6px;
+}
+button.show-details-button:hover, button.show-details-button:focus {
+    background-color: rgba(234, 198, 163, 0.174);
+}
+.buttons-section svg {
+    padding-top: 0.17rem;
+}
+.buttons-section svg.edit:focus, 
+svg.edit:hover {
+  color: rgb(171, 135, 69);
+  outline: none;
+}
+.buttons-section svg.delete:focus, 
+svg.delete:hover {
+  color: rgba(255, 0, 0, 0.518);
+  outline: none;
+}
+.expense-card-bottom {
+    display: flex;
+}
+.expense-details {
+    margin: 0.5rem 0rem 0.2rem 1rem;
+}
+.detail-item {
+    margin: 0.1 0 0 0rem;
+}

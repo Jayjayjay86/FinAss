@@ -1,0 +1,170 @@
+.analysis-summary {
+    
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: .5rem 0 0.8rem 0;
+  }
+  
+.analysis-summary h2 {
+  
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.analysis-summary p {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.summary-month-select {
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #d1d1d15a
+}
+.summary-month-select select {
+  margin: .2rem;
+}
+/* Analysis Pie Income */
+.analysis-pie-income {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.analysis-pie-income h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Analysis Pie */
+.analysis-pie-purpose {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.analysis-pie h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+
+/* Pie Chart Styles */
+.PieChartPurpose .PieChartMonthly .PieChartIncome {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+/* Chart Legend Styles */
+.PieChartPurpose .PieChartMonthly .PieChartIncome .legend {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0.5rem;
+}
+
+.PieChartPurpose .PieChartMonthly .PieChartIncome .legend li {
+  display: flex;
+  align-items: center;
+  margin:0.5rem;
+}
+
+.PieChartPurpose .PieChartMonthly .PieChartIncome .legend li span {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: .5rem;
+}
+
+/* Additional Styles (Modify as needed) */
+/* For example, if you want to style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LineChart */
+
+/* Custom styles for the LineChart component */
+.line-monthly {
+  max-width: 600px; /* Adjust the maximum width of the chart container */
+  margin: 0 auto; /* Center the chart horizontally */
+}
+
+/* Styling for the chart title */
+.line-monthly h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the purpose selector */
+#line-chart-purpose-select {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Styling for the chart canvas */
+#line-chart-canvas {
+  border: 1px solid #f0f0f0; /* Add a border around the chart */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for the legend */
+.line-monthly .chartjs-render-monitor {
+  display: flex;
+  justify-content: center;
+}
+
+.line-monthly .chartjs-render-monitor .chartjs-legend {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.line-monthly .chartjs-render-monitor .chartjs-legend ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.line-monthly .chartjs-render-monitor .chartjs-legend li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Styling for the tooltip */
+.line-monthly .chartjs-render-monitor .chartjs-tooltip {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+  opacity: 1;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  
+}
+
+.line-monthly .chartjs-render-monitor .chartjs-tooltip:not(.chartjs-tooltip-mouse) {
+  opacity: 1;
+}
